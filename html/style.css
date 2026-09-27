@@ -12,3 +12,12 @@ body{font-family:'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif
 .strategy-box{padding:16px 0;border-bottom:1px solid var(--line)}.strategy-box .eyebrow{margin-bottom:9px}.strategy-box select{width:100%;padding:10px 8px;background:#071923;border:1px solid var(--line);color:var(--text);font:500 11px 'Noto Sans KR';outline:none}.strategy-box select:focus{border-color:var(--cyan)}
 .strategy-box label{display:block;margin-top:10px;color:var(--muted);font-size:9px}.strategy-box label select{margin-top:5px}.strategy-box .ghost-button{margin-top:8px;font-size:9px;padding:9px 5px}
 .strategy-box label small{display:block;margin-top:5px;color:#86aab0;line-height:1.4}.strategy-box .ghost-button{display:block}
+.body-korean-fallback{font-family:'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif}
+@font-face{font-family:'Mona12';src:url('./assets/font/Mona/02%20Text%20Only/Mona12TextTC.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Mona12';src:url('./assets/font/Mona/02%20Text%20Only/Mona12TextTC-Bold.woff2') format('woff2');font-style:normal;font-weight:700;font-display:swap}
+body,.strategy-box select,.strategy-box label,.ghost-button,.primary-button{font-family:'Mona12','Malgun Gothic',sans-serif}
+.brand h1,.header-stats strong,.commander-card h2,.resource-row strong,.overlay-card h2,.step-counter strong{font-family:'Mona12','Malgun Gothic',sans-serif;font-weight:700}
+.eyebrow,.panel-heading,.header-stats small,.resource-row small,.legend,.instructions,.target-card label,footer{font-family:'Mona12','Malgun Gothic',sans-serif}
+.overlay-card h2{letter-spacing:2px!important}
+.overlay-card h2{display:flex!important;flex-direction:column;gap:10px;letter-spacing:2px!important;line-height:1!important}
+.overlay-card h2 span{display:block}
